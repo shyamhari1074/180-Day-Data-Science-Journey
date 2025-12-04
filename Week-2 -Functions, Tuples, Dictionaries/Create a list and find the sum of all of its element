@@ -1,0 +1,5 @@
+list1=list(map(int,input("Enter a list of numbers").split()))
+sum=0
+for num in list1:
+    sum+=num
+print(f"Sum is {sum}")
